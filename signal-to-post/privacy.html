@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signal to Post Privacy</title>
+  <meta name="description" content="How Signal to Post uses Google account data.">
+  <style>
+    :root { --bg: #ffffff; --text: #1d2430; --muted: #5b6573; --link: #0a66c2; --rule: #e3e7ec; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #14171c; --text: #e7eaee; --muted: #a3acb8; --link: #6fb1ff; --rule: #2a2f37; }
+    }
+    body { margin: 0; background: var(--bg); color: var(--text);
+           font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+    h1 { font-size: 30px; margin: 0 0 6px; }
+    h2 { font-size: 19px; margin: 28px 0 8px; }
+    p, li { margin: 0 0 12px; }
+    ul { padding-left: 22px; margin: 0 0 12px; }
+    a { color: var(--link); }
+    .updated { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy policy</h1>
+    <p class="updated">Signal to Post · Last updated October 1, 2026</p>
+
+    <p>Signal to Post is a personal automation used only by its owner, with the owner's own Google account. It is not available to other users.</p>
+
+    <h2>Google account data it uses</h2>
+    <p>When the owner signs in with Google, the app's workflow tool requests Gmail access. Signal to Post uses that access only to:</p>
+    <ul>
+      <li>search the owner's Gmail drafts to check whether today's draft already exists, so it does not create a duplicate; and</li>
+      <li>create one new draft in the owner's own Gmail account, containing the prepared post and an image.</li>
+    </ul>
+    <p>It does not read the content of other emails, send email, delete anything, or change labels or settings.</p>
+
+    <h2>Storage and sharing</h2>
+    <ul>
+      <li>Google sign-in tokens are stored only on the owner's own computer, inside the local workflow tool.</li>
+      <li>Gmail data is not copied to any server, sold, shared with third parties, or used for advertising or AI model training.</li>
+      <li>The news research uses public web sources only and does not involve Gmail data.</li>
+    </ul>
+
+    <h2>Removing access</h2>
+    <p>Access can be revoked at any time from the Google Account page under <a href="https://myaccount.google.com/permissions">Third-party apps and services</a>.</p>
+
+    <p>Use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <footer>Contact: <a href="https://github.com/phamin2001">github.com/phamin2001</a> · <a href="./">About Signal to Post</a></footer>
+  </main>
+</body>
+</html>
